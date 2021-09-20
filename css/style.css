@@ -17,14 +17,14 @@ h1 {
 
 
 
-#second-type {
+.second-type {
     color: red;
     border: 1px solid;
     padding-right: 4px;
     padding-left: 4px;
 }
 
-#first-type {
+.first-type {
     border: 1px solid;
     padding-right: 4px;
     padding-left: 4px;

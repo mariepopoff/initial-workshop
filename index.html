@@ -1,13 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
 
-<link rel="stylesheet" href="css/style.css">
+
+
+
 
 
 <h1>Iteration 1 - Inline vs block elements</h1>
 <span>Welcome to the bootcamp</span>
 <em>it is the first day today</em>
 <p>we will have 2 months together</p>
-<img src="img/1629365108-headerdesktop.jpeg" width=400/>
+<img src="img/1629365108-headerdesktop.jpeg" width=400 alt="img ironhack"/>
 
 <h1>Iteration 2 : Simple list</h1>
 <ol>
@@ -23,12 +35,12 @@
 <table class="first-table">
     <tbody>
         <tr>
-            <td id="first-type">Ace</th>
-            <td id="second-type">Diamond</th>
+            <td class="first-type">Ace</td>
+            <td class="second-type">Diamond</td>
         </tr>
         <tr>
-            <td id="second-type">Heart</td>
-            <td id="first-type">Spade</td>
+            <td class="second-type">Heart</td>
+            <td class="first-type">Spade</td>
         </tr>
     </tbody>
 </table>
@@ -38,17 +50,19 @@
 
 <ol>
     <li>level 1.1</li>
-    <li>level 1.2</li>
+    <li>level 1.2
     <ul>
-        <li>level 2.1</li>
+        <li>level 2.1
         <ol>
             <li>level 3.1</li>
             <li>level 3.2</li>
             <li>level 2.3</li>
         </ol>
+        </li>
         <li>level 2.2</li>
         <li>level 2.3</li>
     </ul>
+    </li>
     <li>level 1.3</li>
 </ol>
 
@@ -100,3 +114,22 @@
         </tr>
     </tbody>
 </table>
+
+</body>
+</html>
+
+<h1>Bonus 2 - Video player</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2JCGnqOBpJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h1>Bonus 2 - Audio player</h1>
+
+<figure>
+    <figcaption>Listen to the T-Rex:</figcaption>
+    <audio
+        controls
+        src="mp3/AMBForst_Foret (ID 0100)_LS.mp3"
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
