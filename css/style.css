@@ -1,0 +1,52 @@
+span {
+    color: red;
+}
+
+em {
+    color: green;
+}
+
+h1 {
+    color: purple;
+}
+
+.first-table {
+    border: 1px solid;
+    text-align: center;
+}
+
+
+
+#second-type {
+    color: red;
+    border: 1px solid;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+#first-type {
+    border: 1px solid;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+td {
+    padding: 2px 15px;
+}
+
+.second-table th, td {
+    border :1px solid;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.blank {
+    border: none;
+}
+
+.second-table {
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+}
